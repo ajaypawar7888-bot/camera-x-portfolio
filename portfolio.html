@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Camera X - Photography with Ajju</title>
+    
+    <meta name="description" content="View the exclusive portfolio of Camera X. Featuring high-fashion photography, Indian weddings, cinematic vlogs, and Mumbai street vibes.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= HEADER / NAVBAR ================= -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <div class="logo">
+                <h1>Camera X</h1>
+                <span class="tagline">Photography with Ajju</span>
+            </div>
+            
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- ================= PORTFOLIO HERO ================= -->
+    <section class="page-hero">
+        <div class="hero-overlay"></div>
+        <div class="container text-center">
+            <h2 class="hero-title">My Masterpieces</h2>
+            <p class="hero-subtitle">A curated collection of rich, cinematic storytelling.</p>
+        </div>
+    </section>
+
+    <!-- ================= PORTFOLIO GALLERY ================= -->
+    <section class="portfolio-section container">
+        
+        <!-- Filter Buttons (Will be functional with JS later) -->
+        <div class="portfolio-filters text-center">
+            <button class="filter-btn active" data-filter="all">All Work</button>
+            <button class="filter-btn" data-filter="fashion">High Fashion</button>
+            <button class="filter-btn" data-filter="wedding">Weddings</button>
+            <button class="filter-btn" data-filter="street">Street & Vlogs</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="portfolio-grid">
+            
+            <!-- Portfolio Item 1: Fashion -->
+            <div class="portfolio-item fashion">
+                <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Summer Fashion Collection">
+                <div class="item-overlay">
+                    <h3>Summer Collection Ramp</h3>
+                    <p>High-Fashion / Editorial</p>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 2: Wedding -->
+            <div class="portfolio-item wedding">
+                <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Royal Indian Wedding">
+                <div class="item-overlay">
+                    <h3>Royal Indian Wedding</h3>
+                    <p>Cinematic Wedding</p>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 3: Street/Vlog -->
+            <div class="portfolio-item street">
+                <img src="https://images.unsplash.com/photo-1570168007204-dfb528c6958f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Mumbai Street Food Tour">
+                <div class="item-overlay">
+                    <h3>Hidden Cafes & Street Vibes</h3>
+                    <p>Lifestyle / Mumbai</p>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 4: Fashion -->
+            <div class="portfolio-item fashion">
+                <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Rich Look Modeling">
+                <div class="item-overlay">
+                    <h3>Rich Look Portraits</h3>
+                    <p>Studio Modeling</p>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 5: Street/Vlog -->
+            <div class="portfolio-item street">
+                <img src="https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="CST Station Journey">
+                <div class="item-overlay">
+                    <h3>The CST Journey</h3>
+                    <p>Cinematic Vlog Snippet</p>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 6: Wedding -->
+            <div class="portfolio-item wedding">
+                <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pre-Wedding Shoot">
+                <div class="item-overlay">
+                    <h3>Haldi Ceremony Colors</h3>
+                    <p>Traditional Details</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= FLOATING CONTACT BUTTONS ================= -->
+    <div class="floating-buttons">
+        <a href="tel:+917888174510" class="float-btn call-btn" title="Call Now">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+        <a href="https://wa.me/917888174510" target="_blank" class="float-btn whatsapp-btn" title="WhatsApp Me">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2>Camera X</h2>
+                <p>Photography with Ajju</p>
+                <p class="philosophy">"Man will die, but art is still alive."</p>
+            </div>
+            <div class="footer-contact">
+                <p><i class="fas fa-map-pin"></i> Mumbai, Maharashtra, India</p>
+                <p><i class="fas fa-phone"></i> +91 7888174510</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Camera X. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
